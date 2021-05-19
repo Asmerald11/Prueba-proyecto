@@ -1,4 +1,4 @@
-.container {
+.Kaki {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
@@ -30,20 +30,48 @@
 .texto {
     flex: auto;
     width: 50%;
+    margin-top: 30px;
 }
 
 .texto2 {
     flex: auto;
     width: 50%;
+    margin-top: 30px;
 }
 
 .texto3 {
     flex: auto;
     width: 50%;
+    margin-top: 30px;
 }
 
 .texto4 {
     flex: auto;
     width: 50%;
+    margin-top: 30px;
 }
 
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Logo {
+    text-align:  center;
+}
+
+.galeria {
+    display: flex;
+    justify-content: space-around;
+}
+
+.iacerca {
+    float: left;
+    margin: 30px;
+}
+
+.tacerca {
+    text-align: justify;
+    font-size: 25px;
+    margin: 30px;
+}
