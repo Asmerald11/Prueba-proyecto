@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 80%;
+    text-align: center;
+    margin:0 auto;
+}
+
+.image {
+    flex: auto;
+    width: 50%;
+}
+
+.image2 {
+    flex: auto;
+    width: 50%;
+}
+
+.image3 {
+    flex: auto;
+    width: 50%;
+}
+
+.image4 {
+    flex: auto;
+    width: 50%;
+}
+
+.text {
+    flex: auto;
+    width: 50%;
+}
+
+.text2 {
+    flex: auto;
+    width: 50%;
+}
+
+.text3 {
+    flex: auto;
+    width: 50%;
+}
+
+.text4 {
+    flex: auto;
+    width: 50%;
+}
+
