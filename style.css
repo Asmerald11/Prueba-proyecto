@@ -1,3 +1,117 @@
+/* Header style */
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav{
+    background: chocolate;
+    height: 80px;
+    width: 100%;
+
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: cornsilk;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 5px;
+}
+
+a.activo,a:hover{
+    background: crimson;
+    transition: .5s;
+}
+
+.botoncheck{
+    font-size: 30px;
+    color: cornsilk;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+.Logo{
+    font-size: 35px;
+    line-height: 70px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+.Logo a{
+    color: cornsilk;
+}
+
+@media (max-width: 952px){
+    label.Logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+    
+}
+
+@media (max-width: 858px){
+    .botoncheck{
+        display: block;
+    }
+    .cabecera{
+        overflow: hidden;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: green;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    a:hover,a.active{
+        background: none;
+        color: blue;
+    }
+    #check:checked ~ .cabecera{
+    left: 0;
+    }
+    label.Logo{
+        font-size: 25px;
+    }
+}
+
+/* Index style */
+
 .Kaki {
     display: flex;
     flex-wrap: wrap;
@@ -5,6 +119,7 @@
     width: 80%;
     text-align: center;
     margin:0 auto;
+    
 }
 
 .imagen {
@@ -18,14 +133,7 @@
     margin-top: 2rem;
 }
 
-.navbar {
-    display: flex;
-    justify-content: space-around;
-}
-
-.Logo {
-    text-align:  center;
-}
+/* Acerca de mi style */
 
 .galeria {
     display: flex;
@@ -42,6 +150,8 @@
     font-size: 1.5rem;
     margin: 2rem;
 }
+
+/* Footer style */
 
 .coki {
     width: 20rem;
