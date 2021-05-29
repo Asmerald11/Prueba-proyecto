@@ -75,7 +75,7 @@ a.activo,a:hover{
     
 }
 
-@media (max-width: 858px){
+@media (max-width: 979px){
     .botoncheck{
         display: block;
     }
@@ -122,15 +122,29 @@ a.activo,a:hover{
     
 }
 
-.imagen {
+#imagen {
     flex: auto;
     width: 50%;
 }
 
-.texto {
+#texto {
     flex: auto;
     width: 50%;
     margin-top: 2rem;
+}
+
+@media (max-width:979px){
+    .Kaki{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+    #imagen{
+        width: 100%;
+    }
+    #texto{
+        width: 100%;
+    }
 }
 
 /* Acerca de mi style */
