@@ -9,11 +9,14 @@
 }
 
 nav{
-    background: chocolate;
+    background-image: url(https://i2.wp.com/pixelstalk.net/wp-content/uploads/2016/08/Sky-Scenery-1920x1080-Wallpaper.jpg);
+    background-position: bottom;
     height: 80px;
     width: 100%;
 
 }
+
+
 
 nav ul{
     float: right;
@@ -34,8 +37,8 @@ nav ul li a{
     border-radius: 5px;
 }
 
-a.activo,a:hover{
-    background: crimson;
+a.activo,nav ul li a:hover{
+    background: transparent;
     transition: .5s;
 }
 
@@ -61,7 +64,7 @@ a.activo,a:hover{
 }
 
 .Logo a{
-    color: cornsilk;
+    color: #D47CFA;
 }
 
 @media (max-width: 952px){
@@ -75,7 +78,7 @@ a.activo,a:hover{
     
 }
 
-@media (max-width: 979px){
+@media (max-width: 983px){
     .botoncheck{
         display: block;
     }
@@ -125,6 +128,7 @@ a.activo,a:hover{
 #imagen {
     flex: auto;
     width: 50%;
+    height: auto;
 }
 
 #texto {
@@ -185,7 +189,8 @@ footer{
     flex-flow: row wrap;
     padding: 3.125rem;
     color: white;
-    background-color: teal;
+    background-image: url(https://i2.wp.com/pixelstalk.net/wp-content/uploads/2016/08/Sky-Scenery-1920x1080-Wallpaper.jpg);
+    background-repeat: round;
     margin-top: 4rem;
 }
 
