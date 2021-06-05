@@ -136,17 +136,33 @@ a.activo,nav ul li a:hover{
     width: 50%;
     margin-top: 2rem;
 }
+.Kakires{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 80%;
+    text-align: center;
+    margin:0 auto;
+    display: none;
+}
+
 
 @media (max-width:979px){
     .Kaki{
+        display: none;
+    }
+    .Kakires{
+        padding-top: 10px;
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
         width: 90%;
+        overflow: hidden;
     }
     #imagen{
         width: 100%;
     }
     #texto{
+        /* display: none; */
         width: 100%;
     }
 }
@@ -181,10 +197,6 @@ a.activo,nav ul li a:hover{
 }
 
 footer{
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
     display: flex;
     flex-flow: row wrap;
     padding: 3.125rem;
@@ -246,7 +258,6 @@ h2{
 .footer-bottom{
     text-align: center;
     color: red;
-    padding-top: 3.125rem;
 }
 
 .footer-left p{
